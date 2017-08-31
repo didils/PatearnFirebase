@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "323810943832",
+    "firebase_url": "https://patearn-344fc.firebaseio.com",
+    "project_id": "patearn-344fc",
+    "storage_bucket": "patearn-344fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323810943832:android:be65adfc91709925",
+        "android_client_info": {
+          "package_name": "com.example.patearn.patearnfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323810943832-e71h8snv8eqvehvfum9mla84nfshuett.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patearn.patearnfirebase",
+            "certificate_hash": "b77c3e82728b8e6ec87b91a7e89e584d7d496950"
+          }
+        },
+        {
+          "client_id": "323810943832-q71lkrk77369ue7d2pu5ao2oa9afdbg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkrng2xm3MSEeLxWLe5X4ZgKGg6a_uAgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323810943832-q71lkrk77369ue7d2pu5ao2oa9afdbg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
