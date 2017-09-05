@@ -215,13 +215,16 @@ public class HomeActivity extends AppCompatActivity
 
         if (id == R.id.nav_Board) {
 
-            startActivity(new Intent(this,BoardActivity.class));
+            Intent intent = new Intent(this,BoardActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_gallery) {
 
 //            Intent intent = new Intent(Intent.ACTION_PICK);
 //            intent.setType(MediaStore.Images.Media.CONTENT_TYPE);
 //            startActivityForResult(intent, GALLERY_CODE);
+            Intent intent = new Intent(this,BoardActivity2.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_slideshow) {
 

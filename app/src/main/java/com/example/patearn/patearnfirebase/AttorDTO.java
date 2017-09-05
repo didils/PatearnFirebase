@@ -1,5 +1,8 @@
 package com.example.patearn.patearnfirebase;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by #1 patearn on 2017-08-31.
  */
@@ -15,7 +18,7 @@ public class AttorDTO {
     public String advTags;      //추가
     public String uid;
     public String userId;
-//    public int starCount = 0;
-//    public Map<String, Boolean> stars = new HashMap<>();
+    public int starCount = 0;
+    public Map<String, Boolean> stars = new HashMap<>();
 
 }
