@@ -53,13 +53,19 @@ public class Splashscreen extends Activity {
         iv3.clearAnimation();
         iv3.startAnimation(anim);
 
+        anim = AnimationUtils.loadAnimation(this, R.anim.translate_slow);
+        anim.reset();
+        ImageView iv4 = (ImageView) findViewById(R.id.splash4);
+        iv4.clearAnimation();
+        iv4.startAnimation(anim);
+
         splashTread = new Thread() {
             @Override
             public void run() {
                 try {
                     int waited = 0;
                     // Splash screen pause time
-                    while (waited < 3000) {
+                    while (waited < 2500) {
                         sleep(100);
                         waited += 100;
                     }
