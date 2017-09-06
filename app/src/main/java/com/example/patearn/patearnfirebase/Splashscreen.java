@@ -35,11 +35,11 @@ public class Splashscreen extends Activity {
         l.clearAnimation();
         l.startAnimation(anim);
 
-        anim = AnimationUtils.loadAnimation(this, R.anim.translate);
-        anim.reset();
-        ImageView iv = (ImageView) findViewById(R.id.splash);
-        iv.clearAnimation();
-        iv.startAnimation(anim);
+//        anim = AnimationUtils.loadAnimation(this, R.anim.translate);
+//        anim.reset();
+//        ImageView iv = (ImageView) findViewById(R.id.splash);
+//        iv.clearAnimation();
+//        iv.startAnimation(anim);
 
         anim = AnimationUtils.loadAnimation(this, R.anim.translate2);
         anim.reset();
@@ -65,7 +65,7 @@ public class Splashscreen extends Activity {
                 try {
                     int waited = 0;
                     // Splash screen pause time
-                    while (waited < 2500) {
+                    while (waited < 2100) {
                         sleep(100);
                         waited += 100;
                     }
